@@ -2,6 +2,8 @@
 
 A practice project written in OOP PHP using the MVC model.
 
+It's not 100% completed but it should have functionalities that most blog systems would have.
+
 ## Side Note
 
 1. Expecting bugs
