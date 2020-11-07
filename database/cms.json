@@ -1,0 +1,31 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"cms"},
+{"type":"table","name":"categories","database":"cms","data":
+[
+{"id":"1","category_name":"JavaScript"},
+{"id":"2","category_name":"CSS"}
+]
+}
+,{"type":"table","name":"comments","database":"cms","data":
+[
+{"id":"1","comment_post_id":"1","comment_author_id":"1","comment_content":"This is a very fun post!","comment_date":"2020-09-23","comment_status":"1"}
+]
+}
+,{"type":"table","name":"posts","database":"cms","data":
+[
+{"id":"1","post_author_id":"1","post_category_id":"1","post_title":"Vue JS","post_content":"Yeet","post_image":"sc.PNG","post_date":"2020-09-22","post_tags":"CSS","post_comments_count":"1","post_status":"1","post_views":"2"},
+{"id":"2","post_author_id":"1","post_category_id":"1","post_title":"React JS","post_content":"haha","post_image":"iOS13_RedDark_FlareZephyr.jpeg","post_date":"2020-09-28","post_tags":"Javascript, react","post_comments_count":"0","post_status":"1","post_views":"0"},
+{"id":"3","post_author_id":"1","post_category_id":"1","post_title":"Hello world!","post_content":"afadsf","post_image":"kgD3Bnd.jpg","post_date":"2020-10-05","post_tags":"CSS","post_comments_count":"0","post_status":"1","post_views":"0"},
+{"id":"4","post_author_id":"1","post_category_id":"1","post_title":"ASDFASFASFDASFDF","post_content":"asfd","post_image":"wp3087307.jpg","post_date":"2020-10-05","post_tags":"afds","post_comments_count":"0","post_status":"1","post_views":"0"}
+]
+}
+,{"type":"table","name":"users","database":"cms","data":
+[
+{"id":"1","user_name":"Wardell","user_email":"zeewhylin@gmail.com","user_password":"$2y$10$xiK8xajw2tjLL4oR0s\/Ea.WSAViOw0xYcehpPmx7PKPZzOaciBu.2","user_isadmin":"1"},
+{"id":"2","user_name":"John","user_email":"johndoe@gmail.com","user_password":"$2y$10$7fIFy4ZxhTc8bH9XvfkjLOqProdHvP9K4YlDCcE2WlwvAL8IXCiYy","user_isadmin":"1"},
+{"id":"3","user_name":"Steph","user_email":"steph@gmail.com","user_password":"$2y$10$UPv1Ue9NVeUUl61tbFxSx.SmJagx8HKfPcX0a0x\/Xnojzj0Xed1vi","user_isadmin":"0"},
+{"id":"6","user_name":"mary","user_email":"mary@gmail.com","user_password":"$2y$10$AV7\/ZrdIO7LacXlYLg1pTeq3EpHYiv9UgmPmfX6.TMoaQ8bEBP\/ce","user_isadmin":"0"}
+]
+}
+]
